@@ -15,7 +15,7 @@ const User= require('./Models/UserSchema');
 const cookieParser = require('cookie-parser');
 
 app.use(bodyParser.json());
-const allowedOrigins = ['http://localhost:3000','https://blogapp-frontend-bxqvie76e-m0hitverma.vercel.app','https://blogapp-frontend-g1w6yrtkh-m0hitverma.vercel.app'.'https://blogapp-frontend-theta.vercel.app'];
+const allowedOrigins = ['http://localhost:3000','https://blogapp-frontend-theta.vercel.app'];
 app.use(
    cors({
       origin: function(origin, callback){
